@@ -1,0 +1,184 @@
+*{ box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+    font-family: stretch /*'Merienda', cursive;*/}
+
+
+    .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}	
+
+[class*="col-"]{float: left;
+              padding: 10px;} 
+
+
+/*css navber design start here*/
+
+
+
+.navber{ background-image: linear-gradient(cadetblue, black);
+	padding: 4px 244px 4px 20px;
+	box-shadow: 1px 1px 3px black;
+
+	
+	
+ }
+
+ .nav-logo{ text-align: left;}
+
+    .nav-heading h1 {
+
+
+    	             font-size: 60px;
+
+                       margin: 0;
+                       padding-top: 10px;
+                      	color:#f1f1f1;
+                      	text-shadow: 1px 1px 3px black;
+
+     }
+
+
+     
+
+    .nav-manu{ text-align: right;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+              margin-top: 20px;
+
+               }
+
+
+
+     .nav-manu a{
+      text-decoration: none;
+               color: white; 
+                padding: 10px;
+                font-size: 18px;
+                background-color: #152425;
+                margin: 3px;
+
+
+                }
+
+
+       .nav-manu a:hover{ background-color: #525E54; }         
+
+
+
+.navber::after{ display: table;
+				clear: both;
+				content: ""; }    
+
+/* . css navber design end here	   */
+
+
+/*profile design start here*/
+
+.weather-icon-1{ width: 200px;
+				position: absolute;
+				right: 100px;
+				top: 5px;
+				transition: transform 2s; }
+
+
+
+				
+
+
+.weather-icon-1:hover{ transform: rotate(180deg); }
+.weather-icon-2:hover{ transform: rotate(180deg); }
+
+
+
+.weather-icon-2{ width: 200px;
+				position: absolute;
+				left: 66px;
+				top: 350px;
+				transition: transform 2s; }
+
+.profile-desc h1{ font-family: 'Merienda', cursive;
+	         		font-size: 52px;
+	         		width: auto;
+	         		text-shadow: 1px 1px 3px black;
+	         		
+	         		 }	
+
+	  .profile-desc  { 
+	  	 				width: 50%;
+	  	 				text-align: center;
+	  	 				margin: auto;
+	  	 			
+
+	   }    
+
+	        		 
+
+
+/*profile design end here*/
+
+/*about me design start here*/
+
+.about-me{ background-color: #375C5D;
+	     
+
+	      
+ 			 }
+
+ .about-me h1{ font-size: 70px; 
+           text-shadow: 1px 1px 3px white;  }
+
+
+				  .about-me-pic img{ border: 0px solid  #375C5D;
+				  					
+				  				border-radius: 50%;
+				  				width: 310px;
+				  				height: 300px;
+				  					 }	
+
+				  					 .about-me p{ text-align: left; }		 
+
+
+
+
+
+/*about me design end here*/
+
+/*profassional exparince dising start here*/
+.card{ background-image: linear-gradient(cadetblue, black);
+      height: 150vh;}
+
+/*profassional exparince dising end here*/
+
+
+	/*achivment-conatct design start here*/
+
+
+
+.achivment-contact{ background-color:#375C5D;}
+ .media-button{width: 150px;
+                 margin: 100px auto; } 
+
+	/*achivment-conatct design end here*/
+
+	/*footer design start here*/
+	
+	.footer-manu a{ display: inline;
+				 padding: 10px;
+				 margin: 10px 5px;
+				 font-size: 20px; }
+	/*footer design start here*/
+
+
+
+
